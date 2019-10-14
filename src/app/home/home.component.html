@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>
+    Music Festival 
+  </h1>
+  <div class="bands-list">
+  <ul class="flex-container">
+  <li class="record-label-list" *ngFor="let record of musicFestivalData">
+      <h2 class="record-label">{{record.name}}</h2>
+      <ul class="band-name">        
+      <li class="band" *ngFor="let band of record.band">
+          {{band.name}}
+          <ul>
+          <li class="festival-name" *ngFor="let festival of band.festivals">
+              {{festival.name}}
+          </li>
+        </ul>
+      </li>    
+    </ul>
+  </li>
+  </ul>
+</div>
+  
+  </div>

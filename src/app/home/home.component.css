@@ -1,0 +1,60 @@
+* {
+    font-family: sans-serif;
+  
+}
+h1 {
+    color: #53a5e6;
+    padding: 30px 0;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+.record-label{
+    text-align: center;
+    background-color: #53a5e6;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0;
+}
+.band-name {
+    margin: 20px 0 0 0;
+}
+.band {
+   padding: 5px 0;;
+}
+.band::before {
+    content: "♫";
+}
+.festival-name{
+    margin: 5px 0 0 0;
+}
+.flex-container > * {
+    width: 300px;
+    margin: 10px 20px;
+    min-height: 225px;
+}
+.record-label-list{
+    font-size: 1rem;
+    color: #333333;
+    border: 1px solid #b2b4b6;
+    background-color: #dfe4ea;
+    padding: 0;
+}
+.error {
+    background-color: #d64b4b;
+    text-align: center;
+    max-width: 50%;
+    margin: 2% 20%;
+    color: #252628;
+}
+.bands-list {
+    margin: 0 auto;
+    width: 1100px;
+}
